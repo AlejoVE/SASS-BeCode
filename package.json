@@ -1,0 +1,22 @@
+{
+  "name": "sass-becode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch src/scss -o src/css --source-map true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejoVE/SASS-BeCode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejoVE/SASS-BeCode/issues"
+  },
+  "homepage": "https://github.com/AlejoVE/SASS-BeCode#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
