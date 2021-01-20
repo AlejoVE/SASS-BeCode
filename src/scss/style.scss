@@ -1,11 +1,5 @@
 @import 'variables';
 
-@mixin box-style {
-	-webkit-box-shadow: 10px 10px 15px -4px $gray;
-	-moz-box-shadow: 10px 10px 15px -4px $gray;
-	box-shadow: 10px 10px 15px -4px $gray;
-}
-
 %message-shared {
 	border: 1px solid $dark-gray;
 	padding: $general-padding;
@@ -112,5 +106,11 @@ footer {
 
 	&:hover {
 		background-color: $green;
+	}
+}
+
+@for $i from 1 to 6 {
+	li:nth-child(3n + #{$i}) {
+		background-color: lighten($base-color, $i * 5%);
 	}
 }

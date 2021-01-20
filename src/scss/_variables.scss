@@ -8,6 +8,13 @@ $black: #000;
 $orange: orange;
 $red: red;
 $green: green;
+$base-color: #ecf021;
 
 // padding
 $general-padding: 16px;
+
+@mixin box-style {
+	-webkit-box-shadow: 10px 10px 15px -4px $gray;
+	-moz-box-shadow: 10px 10px 15px -4px $gray;
+	box-shadow: 10px 10px 15px -4px $gray;
+}
